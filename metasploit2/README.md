@@ -45,11 +45,12 @@ This repository documents a complete penetration testing engagement against **Me
 5. **Reporting** - Documentation with CVE references and remediation
 
 ## 📸 Evidence Gallery
-- [Snapshots/](snapshots/)
+- [Snapshots/](snapshots)
 
 ## 📄 Reports
 - [Full Penetration Test Report](reports/penetration_test_report.md)
 - [Executive Summary](reports/executive_summary.md)
+- [Findings Summary](reports/findings_summary.csv)
 
 ## 🔗 MITRE ATT&CK Tactics Demonstrated
 - TA0001 - Initial Access
