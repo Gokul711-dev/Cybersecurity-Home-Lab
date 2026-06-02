@@ -1,0 +1,20 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-06-01 23:46 IST
+Nmap scan report for 192.168.29.7
+Host is up (0.0060s latency).
+
+PORT     STATE SERVICE
+3306/tcp open  mysql
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.0.51a-3ubuntu5
+|   Thread ID: 40
+|   Capabilities flags: 43564
+|   Some Capabilities: Support41Auth, SupportsTransactions, SupportsCompression, Speaks41ProtocolNew, ConnectWithDatabase, SwitchToSSLAfterHandshake, LongColumnFlag
+|   Status: Autocommit
+|_  Salt: bA^89T}:G7{(P?'D`726
+| mysql-enum: 
+|   Accounts: No valid accounts found
+|_  Statistics: Performed 10 guesses in 1 seconds, average tps: 10.0
+MAC Address: A8:E2:91:95:65:30 (Unknown)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
