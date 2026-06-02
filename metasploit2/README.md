@@ -45,7 +45,7 @@ This repository documents a complete penetration testing engagement against **Me
 5. **Reporting** - Documentation with CVE references and remediation
 
 ## 📸 Evidence Gallery
-metasploit2/snapshots
+- [Snapshots/](snapshots/)
 
 ## 📄 Reports
 - [Full Penetration Test Report](reports/penetration_test_report.md)
