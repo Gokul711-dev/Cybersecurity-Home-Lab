@@ -106,7 +106,9 @@ sudo apt update && sudo apt full-upgrade -y
 # Verify IP address
 ip a
 # Should show 192.168.56.x
+```
 🎯 Step 4: Deploy Metasploitable 2 VM
+```bash
 Import VM
 bash
 # Extract downloaded ZIP file
@@ -134,7 +136,9 @@ Password: msfadmin
 # Verify IP
 ifconfig
 # Should show 192.168.56.x (different from Kali)
+```
 ✅ Step 5: Verify Connectivity
+```bash
 From Kali Terminal
 bash
 # Find Metasploitable IP (from its ifconfig output)
