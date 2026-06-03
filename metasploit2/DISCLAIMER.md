@@ -46,7 +46,7 @@ By accessing, cloning, forking, or using this repository in any way, you acknowl
 - This disclaimer is binding and enforceable
 
 ## Contact
-For questions, concerns, or to report misuse of this repository, please contact: [YOUR-EMAIL@example.com]
+For questions, concerns, or to report misuse of this repository, please contact: ahi.krishna25@gmail.com
 
 ---
 
