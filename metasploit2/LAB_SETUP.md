@@ -174,7 +174,7 @@ Never connect Metasploitable to corporate/production network
 📸 Take Baseline Snapshots
 Before any exploitation, take snapshots of clean configurations:
 
-bash
+
 # In VirtualBox, for each VM:
 Machine → Take Snapshot
 
