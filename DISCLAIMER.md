@@ -1,7 +1,7 @@
 # ⚠️ LEGAL DISCLAIMER
 
 ## Author - Gokul G 
-Github Profile : https://github.com/Gokul711-dev/Gokul&11-dev
+Github Profile : https://github.com/Gokul711-dev/Gokul711-dev
 ## Educational Purpose Only
 This repository and all its contents are provided **strictly for educational and research purposes**. The techniques, scripts, methodologies, and information contained herein are intended to help security professionals, students, and enthusiasts understand vulnerabilities, attack vectors, and defensive strategies.
 
