@@ -3,7 +3,7 @@
 ## 📌 Overview
 This repository documents a complete penetration testing engagement against **Metasploitable 2**, an intentionally vulnerable Linux VM, conducted in an isolated VirtualBox lab environment.
 
-**Attacker:** Kali Linux  
+**Attacker:** Kali Linux/ Parrot Secuirty
 **Target:** Metasploitable 2  
 **Date:** May 2026  
 **Environment:** Isolated Host-Only Network
