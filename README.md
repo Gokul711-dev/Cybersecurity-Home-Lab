@@ -55,7 +55,7 @@ This repository serves as the **central hub** for my hands-on cybersecurity jour
 
 | Lab | Focus Area | Status | Key Vulnerabilities | Documentation |
 |-----|------------|--------|---------------------|---------------|
-| 🐉 **Metasploitable 2** | Linux Exploitation | ✅ Complete | 10+ CVEs including vsftpd backdoor, Samba RCE | [View Report](metasploit-lab/reports/) |
+| 🐉 **Metasploitable 2** | Linux Exploitation | ✅ Complete | 10+ CVEs including vsftpd backdoor, Samba RCE | [View Report](metasploit2/reports/) |
 | 🌐 **DVWA** | Web Application | 🔄 In Progress | SQLi, XSS, CSRF, Command Injection | [View Progress](dvwa-lab/) |
 | 🎯 **Windows 7 (Legacy)** | Windows Exploitation | 📋 Planned | EternalBlue, MS17-010 | Coming Soon |
 | 🔥 **Active Directory** | Domain Exploitation | 📋 Planned | Kerberoasting, Golden Ticket | Coming Soon |
