@@ -1,0 +1,20 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-06-01 23:13 IST
+MAC Address: C4:95:4D:36:9B:68 (Sercomm)
+Nmap scan report for 192.168.29.4
+Host is up (0.045s latency).
+MAC Address: A8:E2:91:95:65:30 (Unknown)
+Nmap scan report for 192.168.29.7
+Host is up (0.15s latency).
+MAC Address: A8:E2:91:95:65:30 (Unknown)
+Nmap scan report for 192.168.29.92
+Host is up (0.88s latency).
+MAC Address: 5C:BA:EF:AA:90:95 (Chongqing Fugui Electronics)
+Nmap scan report for 192.168.29.107
+Host is up (0.0038s latency).
+MAC Address: 8E:41:76:8A:5B:FC (Unknown)
+Nmap scan report for 192.168.29.171
+Host is up (2.6s latency).
+MAC Address: AA:B3:C5:05:AA:33 (Unknown)
+Nmap scan report for 192.168.29.57
+Host is up.
+Nmap done: 256 IP addresses (7 hosts up) scanned in 9.09 seconds
